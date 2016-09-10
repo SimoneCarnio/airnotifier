@@ -1,4 +1,8 @@
 ## Introduction
+
+[![Join the chat at https://gitter.im/airnotifier/airnotifier](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/airnotifier/airnotifier?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+
 AirNotifier is an user friendly yet powerful application server for sending real-time notifications to mobile and desktop applications. AirNotifier provides an unified web service interface to deliver messages to multi devices using multi protocols, it also features a web based administrator UI to configure and manage services.
 
 ## Supported devices
@@ -85,14 +89,14 @@ Please read [Installation guide](https://github.com/airnotifier/airnotifier/wiki
 - pemdir: The directory storing certificates
 - passwordsalt: passwordsalt
 - masterdb: MongoDB database name
-- dbprefix: MongoDB collection name prefix, this will be used to create object data collection
+- appprefix: Prefix added to app database name
 
 ## Web service documentation
 - [Web service interfaces](https://github.com/airnotifier/airnotifier/wiki/API)
 
 ## Requirements
 
-- [Python 2.6+](http://www.python.org)
+- [Python 2.7.9+](http://www.python.org)
 - [MongoDB 2.0+](http://www.mongodb.org/)
 - [Tornado 3.0+](http://tornadoweb.org)
 
